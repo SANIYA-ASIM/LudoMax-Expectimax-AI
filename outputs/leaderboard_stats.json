@@ -1,0 +1,131 @@
+{
+  "human_vs_ai": {
+    "games_played": 12,
+    "human_wins": 7,
+    "human_losses": 5,
+    "total_captures": 41,
+    "pieces_finished": 39,
+    "opponents": {
+      "expectimax": {
+        "encounters": 12,
+        "human_wins": 7,
+        "ai_wins": 3,
+        "threat": "Extreme (Depth 2-3 Search)"
+      },
+      "aggressive": {
+        "encounters": 12,
+        "human_wins": 8,
+        "ai_wins": 1,
+        "threat": "High (Capture Hunter)"
+      },
+      "defensive": {
+        "encounters": 12,
+        "human_wins": 9,
+        "ai_wins": 1,
+        "threat": "Moderate (Safe Square Camper)"
+      }
+    },
+    "recent_history": [
+      {
+        "result": "VICTORY",
+        "turns": 84,
+        "captures": 4,
+        "date": "Today",
+        "mode": "Human vs AI"
+      },
+      {
+        "result": "VICTORY",
+        "turns": 92,
+        "captures": 5,
+        "date": "Today",
+        "mode": "Human vs AI"
+      },
+      {
+        "result": "DEFEAT",
+        "turns": 108,
+        "captures": 2,
+        "date": "Yesterday",
+        "mode": "Human vs AI"
+      },
+      {
+        "result": "VICTORY",
+        "turns": 76,
+        "captures": 6,
+        "date": "Yesterday",
+        "mode": "Human vs AI"
+      },
+      {
+        "result": "DEFEAT",
+        "turns": 114,
+        "captures": 3,
+        "date": "Nov 16",
+        "mode": "Human vs AI"
+      }
+    ]
+  },
+  "ai_vs_ai": {
+    "total_matches": 25,
+    "models": {
+      "Expectimax": {
+        "rank": 1,
+        "color": [
+          255,
+          205,
+          0
+        ],
+        "games": 25,
+        "wins": 14,
+        "win_rate": 56.0,
+        "avg_goal": 3.6,
+        "total_captures": 82,
+        "fastest_win": 72,
+        "description": "Adversarial tree search with stochastic dice evaluation and risk weighting."
+      },
+      "Aggressive": {
+        "rank": 2,
+        "color": [
+          40,
+          120,
+          245
+        ],
+        "games": 25,
+        "wins": 7,
+        "win_rate": 28.0,
+        "avg_goal": 2.8,
+        "total_captures": 58,
+        "fastest_win": 81,
+        "description": "Heuristic greedily prioritizing opponent captures and fast base release."
+      },
+      "Defensive": {
+        "rank": 3,
+        "color": [
+          230,
+          50,
+          65
+        ],
+        "games": 25,
+        "wins": 3,
+        "win_rate": 12.0,
+        "avg_goal": 2.2,
+        "total_captures": 36,
+        "fastest_win": 94,
+        "description": "Heuristic prioritizing safe star squares and home column shelter."
+      },
+      "Random": {
+        "rank": 4,
+        "color": [
+          40,
+          195,
+          80
+        ],
+        "games": 25,
+        "wins": 1,
+        "win_rate": 4.0,
+        "avg_goal": 1.1,
+        "total_captures": 18,
+        "fastest_win": 118,
+        "description": "Uniform random selection across all currently legal moves."
+      }
+    }
+  }
+}

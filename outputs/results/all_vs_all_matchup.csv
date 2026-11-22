@@ -1,0 +1,5 @@
+Color,Agent Type,Games Played,Wins,Win Rate,Avg Captures Made,Avg Captures Suffered,Avg Turns
+yellow,expectimax,5,2,0.4000,6.00,2.60,95.8
+blue,aggressive,5,1,0.2000,4.80,3.60,95.8
+red,defensive,5,2,0.4000,2.80,3.60,92.6
+green,random,5,0,0.0000,2.40,6.20,96.0
